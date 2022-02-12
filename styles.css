@@ -41,8 +41,8 @@
 .barranav_menu{
     display: flex;
     align-items: center;
-    text-align: center;
     list-style: none;
+    text-align: center;
 }
 
 .barranav_links{
