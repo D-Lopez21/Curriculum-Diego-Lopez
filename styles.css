@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barranav{
+    background: #ee9ca7;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+}
+
+.barranav_contenido{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#barranav_logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    background: #FF0099; 
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.barranav_menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.barranav_links{
+    color: #493240 ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.barranav_links:hover{
+    color: #4A00E0 ;
+    transition: 0.5s ease-in-out;
+}
