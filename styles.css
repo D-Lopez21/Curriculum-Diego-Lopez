@@ -43,8 +43,6 @@
     align-items: center;
     list-style: none;
     text-align: center;
-    text-align: center;
-    list-style: none;
 }
 
 .barranav_links{
@@ -131,7 +129,7 @@
   /*Parte de experiencia*/
 
   .experiencia{
-      background: #fff;
+      background: rgba(255, 255, 255, 0.521);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -213,5 +211,82 @@
     font-size: 25px;
     text-align: center;
     margin: 1rem;
+}
+
+/*Contacto*/
+
+.contactame {
+    text-align: center;
+    background-color: rgba(11, 2, 12, 0.582);
+    height: auto;
+}
+  
+.contactame .Titulo {
+    font-size: 45px;
+    background: #FF0099; 
+    background: -webkit-linear-gradient(to right,#FF0099, #8360c3, #FF0099);
+    background: linear-gradient(to right,#FF0099, #8360c3, #FF0099); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+  
+.contactame .input-label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+  .contactame .input-label span {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+  
+.contactame .input-label input.form-input {
+    height: 2rem;
+    border: 1px solid; 
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    margin: 0 150px;
+}
+  
+.contactame button.formboton{
+    display: block;
+    color: rgba(0, 0, 0, 0.507);
+    background: linear-gradient(to top,#8360c3, #2ebf91);
+    height: 3rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.contactame ul{
+
+    width: 50px;
+    display: flex;
+    margin: 20px;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center ;
+    margin-top: 30px;
+    font-size: 2rem;
+
+}
+
+.contactame img{
+    width: 0;
+    display: flex;
+    margin: 0;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center ;
+    margin-left: 220px;
+}
+
+.contactame b1{
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
