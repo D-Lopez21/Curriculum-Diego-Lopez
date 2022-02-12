@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barranav{
+    background: #ee9ca7;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+}
+
+.barranav_contenido{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#barranav_logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    background: #FF0099; 
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.barranav_menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.barranav_links{
+    color: #493240 ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.barranav_links:hover{
+    color: #4A00E0 ;
+    transition: 0.5s ease-in-out;
+}
+
+/* Parte de carrusel y hero*/
+.hero{
+    margin: 0;
+}
+.carrusel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .carrusel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.1ms ease-in-out;
+  }
+  
+  .slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+  
+  .slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .carrusel-boton {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.288);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+  }
+  
+  .carrusel-boton:hover,.carrusel-boton:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carrusel-boton:focus {
+    outline: 1px solid black;
+  }
+  
+  .carrusel-boton.prev {
+    left: 1rem;
+  }
+  
+  .carrusel-boton.next {
+    right: 1rem;
+  } 
