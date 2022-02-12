@@ -43,11 +43,8 @@
     align-items: center;
     list-style: none;
     text-align: center;
-
-
     text-align: center;
     list-style: none;
-
 }
 
 .barranav_links{
@@ -131,7 +128,7 @@
     right: 1rem;
   } 
 
-/*Parte de experiencia*/
+  /*Parte de experiencia*/
 
   .experiencia{
       background: #fff;
@@ -171,7 +168,7 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
-      color: aliceblue;
+      color: rgba(0, 0, 0, 0.507);
       background: linear-gradient(to top,#8360c3, #2ebf91); 
   }
 
@@ -180,4 +177,41 @@
       margin-left: 6rem;
       margin-top: 3rem;
   }
+
+/* Parte de Sobre mi */
+
+.presentacion{
+    background: url(Fondo.gif);
+    background-size: cover;   
+}
+
+.sobreMi{
+    width: 1200px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobreMi img{
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+    display: grid;
+}
+
+.sobreMi t1{
+    font-size: 40px;
+}
+
+.sobreMi t2,t3,t4{
+    font-size: 25px;
+    text-align: center;
+    margin: 1rem;
+}
 
