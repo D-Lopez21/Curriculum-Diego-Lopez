@@ -1,1 +1,87 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+    <body>
+        <!-- Barra de navegacion -->
+        <nav class="barranav">
+            <div class="barranav_contenido">
+                <a href="#home" id="barranav_logo">Curriculum</a>
+                <ul class="barranav_menu">
+                    <li class="barranav_item">
+                        <a href="#Experience" class="barranav_links" id="experience-page">Experience</a>
+                    </li>
+                    <li class="barranav_item">
+                        <a href="#about" class="barranav_links" id="about-page">About Me</a>
+                    </li>
+                    <li class="barranav_item">
+                        <a href="#Skills" class="barranav_links" id="skills-page">Skills</a>
+                    </li>
+                    <li class="barranav_item">
+                        <a href="#ContactMe" class="barranav_links" id="Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Carrusel y Hero -->
+        <div class="carrusel" data-carrusel>
+            <button class="carrusel-boton prev" data-carrusel-boton="prev">&#8656;</button>
+            <button class="carrusel-boton next" data-carrusel-boton="next">&#8658;</button>
+            <ul data-slides>
+                <li class="slide">
+                    <img src="imagen.gif" alt="">
+                </li>
+                <li class="slide">
+                    <img src="programando.gif" alt="">
+                </li>
+                <li class="slide">
+                    <img src="stars-night.gif" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- Experiencia -->
+        <div class="experiencia">
+            <h1>Trabajos previos</h1>
+            <div class="trabajos">
+                <div class="muestra1">
+                    <h1>Text Based Game</h1>
+                    <info>Tecnologias utilizadas: Python</info>
+                    <date>Fecha de ejecucion: 05/04/2021</date>
+                    <p><a href="https://github.com/D-Lopez21/Lopez_Diego_2021-2">Toque aqui para visitar la pagina.</a></p>
+                    <img src="textbase.png" alt="">
+                </div>
+                <div class="muestra2">
+                    <h2>Primera vez utilizando Github</h2>
+                    <info>Tecnologias utilizadas: Python</info>
+                    <date>Fecha de ejecucion: 14/01/2021</date>
+                    <p><a href="https://github.com/D-Lopez21/Test-algoritmos">Toque aqui para visitar la pagina.</a></p>
+                    <img src="github_PNG83.png" alt="">
+                </div>
+                <div class="muestra3">
+                    <h3>Mi Curriculum</h3>
+                    <info>Tecnologias utilizadas: Javascript, Css, HTML</info>
+                    <date>Fecha de ejecucion: 14/01/2021</date>
+                    <p><a href="https://github.com/D-Lopez21/Curriculum-Diego-Lopez">Toque aqui para visitar la pagina.</a></p>
+                    <img src="curri.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Sobre mi -->
+        <div class="presentacion">
+            <div class="sobreMi">
+                <img src="Diego sobre mi (1).jpg" class="foto">
+                <t1>Diego Lopez</t1>
+                <t2>Objetivos a corto plazo: Aprender sobre programacion, comer mas saludable, pasar todas mis materias de este trimestre, hacer un buen proyecto con mi equipo</t2>
+                <t3>Objetivos a largo plazo: Graduarme, desarrollarme en FrontEnd, Aprender a tocar piano o bateria.</t3>
+                <t4>Motivacion,gustos,etc: Me gusta mucho los dulces, los deportes y salir con mis amigos. Mi motivacion principal es poder convertirme en una persona de la que estar orgullosa. A veces suelo ser muy torpe y olvidadizo, asi que usualmente tengo todo anotado en un pizarron.</t4>
+            </div>    
+        </div>
+    </body>
+</html>
+
