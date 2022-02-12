@@ -43,6 +43,8 @@
     align-items: center;
     list-style: none;
     text-align: center;
+    text-align: center;
+    list-style: none;
 }
 
 .barranav_links{
@@ -129,7 +131,7 @@
   /*Parte de experiencia*/
 
   .experiencia{
-      background: rgba(255, 255, 255, 0.521);
+      background: #fff;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -212,3 +214,4 @@
     text-align: center;
     margin: 1rem;
 }
+
