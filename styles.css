@@ -43,8 +43,11 @@
     align-items: center;
     list-style: none;
     text-align: center;
+
+
     text-align: center;
     list-style: none;
+
 }
 
 .barranav_links{
@@ -60,7 +63,6 @@
 .barranav_links:hover{
     color: #4A00E0 ;
     transition: 0.5s ease-in-out;
-
 }
 
 /* Parte de carrusel y hero*/
@@ -128,4 +130,54 @@
   .carrusel-boton.next {
     right: 1rem;
   } 
+
+/*Parte de experiencia*/
+
+  .experiencia{
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 30px 0;
+  }
+
+  .experiencia h1,h2,h3{
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    background: #FF0099; 
+    background: -webkit-linear-gradient(to right,#FF0099, #8360c3, #FF0099);
+    background: linear-gradient(to right,#FF0099, #8360c3, #FF0099); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  .trabajos{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+  }
+
+  .muestra1, .muestra2, .muestra3{
+      margin: 20px;
+      height: auto;
+      width: auto;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: aliceblue;
+      background: linear-gradient(to top,#8360c3, #2ebf91); 
+  }
+
+  .experiencia img{
+      width: 200px;
+      margin-left: 6rem;
+      margin-top: 3rem;
+  }
 
